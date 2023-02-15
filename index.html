@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./Js/script.js" defer></script>
+    <title>Portfólio</title>
+</head>
+<body>
+    
+    <div class="container">
+
+       <div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <span>Fechar</span>
+       </div>
+
+       <header id="home">
+        <div class="img-wrapper">
+            <img src="./imagens/background.jpg" alt="background">
+        </div>
+        <div class="banner">
+            <p> Coloque seu nome para fazer login!
+                <br> Assim que logado, mesmo que feche o navegador você permanecerá logado.
+                <br> Para deslogar clique no betão sair na parte inferior do site.
+            </p>
+            <form id="name-form">
+                <h2>Preencha o formulário para fazer login:</h2>
+                <label for="name" class="label">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite o seu Nome..." required />
+                <input type="submit" id="btn" value="Entrar">
+            </form>
+            <div id="welcome" class="welcome" >
+                <h1>Seja bem vindo <span id="username"></span></h1>
+                <button id="logout">Sair</button>
+            </div>
+         
+        </div>
+    </header>
+
+
+        </header>
+
+        
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Menu</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Não</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">implementado</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">no momento</a></li>
+                </ul>
+            </nav>
+            <!--
+            <div class="social-media">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div> 
+            -->
+        </aside>
+
+       
+        <footer>
+            <div class="footer-content">
+                <p>
+                    copyright &copy; 2023, Gabriel Rhadamés - Todos os direitos reservados.
+                </p>
+            </div>
+          
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+
+    </div>
+</body>
+
+</html>
